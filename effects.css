@@ -1,0 +1,63 @@
+/* general */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Tags */
+
+
+
+
+
+/* Utilities */
+
+/* Esercizio 1 */
+.ex-1-square {
+    transition: background-color 1s;
+}
+
+.ex-1-square:hover {
+    background-color: red;
+}
+
+/* Esercizio 2 */
+.ex-2-square{
+    transition: 2s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+/* Esercizio 3 */
+.ex-3-square{
+    transition: .3s;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+/* Esercizio 4 */
+.ex-4-square{
+    transition: .5s;
+}
+
+.ex-4-square:hover {
+    background-color: transparent;
+}
+
+/* Esercizio 5 */
+.ex-5-square{
+    transition: .5s;
+}
+
+.ex-5-square:hover {
+    transform: scale(1.2);
+}
+
+.ex-5-square:active {
+    transform: scale(.9);
+}
